@@ -1,0 +1,136 @@
+name: memeland
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.2
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+  video_player: ^2.2.3
+
+  flutter_datetime_picker: ^1.4.0
+  intl:
+  image_cropper: ^1.2.3
+  image_picker: ^0.6.2+1
+  shared_preferences:
+  cached_network_image: ^2.5.0
+  dio: ^3.0.10
+  carousel_slider: ^2.3.1
+  carousel_pro: ^1.0.0
+  country_code_picker: ^1.6.2
+  async: ^2.4.1
+  toast: ^0.1.5
+  flutter_absolute_path:
+    git:
+      url: https://github.com/canewsin/flutter_absolute_path.git
+
+  # flutter_absolute_path: ^1.0.6
+
+  path: ^1.7.0
+  custom_refresh_indicator: ^0.8.0+1
+  flutter_screenutil: ^0.4.2
+  flutter_slidable: ^0.5.4
+  giphy_get: ^1.1.0
+  timeago: ^2.0.26
+  inview_notifier_list: ^1.0.0
+  path_provider: ^1.2.2
+  image_gallery_saver: ^1.2.2
+  permission_handler: ^5.0.1+1
+  screenshot:
+  dashed_circle: ^0.0.1
+  # story_view: ^0.12.7
+  google_fonts: ^1.1.1
+  fluttertoast: ^7.1.8
+  # geocoder: ^0.2.1
+  geocoder:
+    git:
+      url: https://github.com/nguyenxdat/flutter_geocoder.git
+      ref: 443b875d8ec80ce525cc6e8f17dfbbbbe7fa3028
+  location: ^3.2.4
+  photofilters: ^1.0.5
+  flutter_spinkit: ^4.1.2+1
+  cloud_firestore:
+  firebase_auth:
+  firebase_database:
+  firebase_storage:
+  firebase_messaging:
+  photo_view: ^0.9.2
+  convex_bottom_bar: ^3.0.0
+  another_flushbar: ^1.10.20
+  google_sign_in: 
+  csc_picker: ^0.2.5
+  flutter_image_compress: ^0.7.0
+  linkable: ^1.0.9
+  flutter_staggered_grid_view: ^0.4.0
+  webview_flutter: ^2.0.12
+  visibility_detector: ^0.2.0
+  video_thumbnail: ^0.4.3
+  dynamic_themes:
+  video_compress: ^3.1.0
+
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.7.5
+  flutter_test:
+    sdk: flutter
+
+#dependency_overrides:
+#  platform: ^3.1.0
+
+flutter_icons:
+  image_path: "assets/images/launcher_icon_snapta.jpg"
+  android: true
+  ios: true
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  assets:
+    - assets/images/
+    - assets/video/
+
+  fonts:
+
+    - family: Helvetica
+      fonts:
+        - asset: assets/fonts/Helvetica neue.ttf
+
+    - family: Lato
+      fonts:
+        - asset: assets/fonts/Lato-Regular.ttf
+
+    - family: BrushScript
+      fonts:
+        - asset: assets/fonts/brushScript.ttf
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "827693126050",
+    "project_id": "memelandnew",
+    "storage_bucket": "memelandnew.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827693126050:android:beeda9796595e4563022fb",
+        "android_client_info": {
+          "package_name": "com.memeland.funs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "827693126050-h6loulr7h96ebquroqfju7hh7kt50tat.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.memeland.funs",
+            "certificate_hash": "81e46fdc84e98d60503b3432341e393544c282ef"
+          }
+        },
+        {
+          "client_id": "827693126050-9ufks86u5qcdfrfafo0tb2uve0qtv9hu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDB6ffT_JDj5GGaQQqmhQv7jCzYVDWRcfo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "827693126050-9ufks86u5qcdfrfafo0tb2uve0qtv9hu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
